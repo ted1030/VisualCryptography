@@ -5,14 +5,14 @@ usage:
 ```shell
 python color.py/gray.py xxx.xxx
 ```
-Overlap the two generated images would get the secret image.
+Overlap the two generated images would get the original image.
 
 algorithm:
-1. read the input image in CMYK color space.
-2. spilit it to C, M, Y channels.
-3. generate halftone images.
-4. for every channel, generate two secret images.
-5. combine three channels respectively.
-6. overlap the two images and get result.
+1. Read the input image in CMYK color space.
+2. Split it to C, M, Y channels.
+3. Generate halftone images.
+4. For every channel, generate two secret images.
+5. Combine three channels respectively.
+6. Overlap the two images and get result.
 
 references: https://www.sciencedirect.com/science/article/pii/S0031320302002583
