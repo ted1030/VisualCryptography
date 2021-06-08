@@ -13,6 +13,6 @@ algorithm:
 3. Generate halftone images.
 4. For every channel, generate two secret images.
 5. Combine three channels respectively.
-6. Overlap the two images and get result.
+6. Overlap the two images and get the result.
 
 references: https://www.sciencedirect.com/science/article/pii/S0031320302002583
